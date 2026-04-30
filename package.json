@@ -1,0 +1,27 @@
+{
+  "name": "paperclip-hermes-docker-shim",
+  "version": "0.1.0",
+  "description": "Drop-in hermes CLI binary that proxies to Hermes HTTP API — for Docker/container Paperclip setups",
+  "license": "MIT",
+  "author": "Gilfoyle <gilfoyle@smith-gray.com>",
+  "repository": "github:Smith-Gray-Pty-Ltd/paperclip-hermes-docker-shim",
+  "type": "module",
+  "bin": {
+    "hermes": "./bin/hermes.mjs"
+  },
+  "files": [
+    "bin/"
+  ],
+  "keywords": [
+    "hermes",
+    "paperclip",
+    "docker",
+    "shim",
+    "adapter",
+    "ai-agent",
+    "hermes-agent"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}
